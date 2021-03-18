@@ -28,6 +28,7 @@ body {
     background-color: #DCF5F5;
     background-image: url(cross.png);
     background-repeat: repeat;
+    font-family: 'Noto Serif', serif;
 }
 p {
     font-family: 'Noto Serif', serif;
@@ -151,15 +152,19 @@ li.nav-bar {
     text-align: center;
     padding: 14px 16px;
 }
-li.nav-bar-alt {
+li.nav-bar:hover {
     display: block;
+    background-color: white;
     color: darkgrey;
     text-shadow: 1px 1px lightgrey;
-    float: left;
-    text-align: center;
-    padding: 14px 16px;
 }
 
 pre {
     font-family: monospace;
+}
+ol ul {
+    list-style-type: square;
+}
+li ol {
+    list-style-type: lower-roman;
 }
