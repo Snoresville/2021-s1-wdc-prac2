@@ -11,6 +11,11 @@ h3 {
 
 #content {
     background-color: white;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgrey;
+    border-radius: 8px;
 }
 
 body {
@@ -40,6 +45,39 @@ mark {
 }
 .fancy {
     font-family: cursive;
+}
+.red-border {
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+}
+.red-outline {
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 1px;
+}
+.blue-border {
+    border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+}
+.red-border-horizontal-rule {
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-color: #cfdfe4
+}
+.blue-border-horizontal-rule {
+    border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+    
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-color: #cfdfe4
 }
 
 pre {
