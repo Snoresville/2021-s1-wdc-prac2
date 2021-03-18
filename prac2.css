@@ -1,6 +1,19 @@
 h1 {
     font-family: sans-serif;
 }
+h2 {
+    text-align: left;
+    font-family: sans-serif;
+}
+h3 {
+    color: rgba(0, 0, 139, 0.5);
+}
+
+body {
+    background-color: #DCF5F5;
+    background-image: url(cross.png);
+    background-repeat: repeat;
+}
 p {
     font-family: serif;
 }
@@ -14,10 +27,10 @@ mark {
     color: darkblue;
     background-color: pink;
 }
-h2 {
-    text-align: left;
-    font-family: sans-serif;
+.transparent-text {
+    color: rgba(0, 0, 0, 0.5);
 }
+
 pre {
     font-family: monospace;
 }
