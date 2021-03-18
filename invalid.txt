@@ -1,1 +1,1 @@
-"file:/home/ubuntu/a1766744/2021/s1/wdc/prac2/validatethis1.html":1.1-1.16: error: Start tag seen without seeing a doctype first. Expected “<!DOCTYPE html>”.
+1.1-1.16: error: Start tag seen without seeing a doctype first. Expected “<!DOCTYPE html>”.

@@ -45,6 +45,9 @@ mark {
 hr {
     color: #cfdfe4;
 }
+li {
+    font-family: 'Noto Serif', serif;
+}
 
 .transparent-text {
     color: rgba(0, 0, 0, 0.5);
@@ -132,6 +135,29 @@ hr {
 .social-media-8 {
     color: #BFCFD4;
     text-align: center;
+}
+ul.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li.nav-bar {
+    display: block;
+    color: white;
+    background-color: darkgrey;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+}
+li.nav-bar-alt {
+    display: block;
+    color: darkgrey;
+    text-shadow: 1px 1px lightgrey;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
 }
 
 pre {
