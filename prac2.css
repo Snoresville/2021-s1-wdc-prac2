@@ -9,6 +9,10 @@ h3 {
     color: rgba(0, 0, 139, 0.5);
 }
 
+#content {
+    background-color: white;
+}
+
 body {
     background-color: #DCF5F5;
     background-image: url(cross.png);
@@ -27,8 +31,15 @@ mark {
     color: darkblue;
     background-color: pink;
 }
+
 .transparent-text {
     color: rgba(0, 0, 0, 0.5);
+}
+.blue {
+    color: blue;
+}
+.fancy {
+    font-family: cursive;
 }
 
 pre {
