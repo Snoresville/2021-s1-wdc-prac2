@@ -1,12 +1,18 @@
 h1 {
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 h2 {
     text-align: left;
-    font-family: sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 h3 {
     color: rgba(0, 0, 139, 0.5);
+}
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: underline;
 }
 
 #content {
@@ -24,7 +30,7 @@ body {
     background-repeat: repeat;
 }
 p {
-    font-family: serif;
+    font-family: 'Noto Serif', serif;
 }
 del {
     color: grey;
@@ -114,6 +120,18 @@ hr {
     padding: 12px;
     height: 400px;
     width: 400px;
+}
+.multi-line-quote-8 {
+    font-family: 'Raleway', serif;
+
+    color: dimgrey;
+    line-height: 15px;
+    word-spacing: 0.2em;
+    text-align: justify;
+}
+.social-media-8 {
+    color: #BFCFD4;
+    text-align: center;
 }
 
 pre {
