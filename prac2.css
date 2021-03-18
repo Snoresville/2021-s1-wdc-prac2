@@ -82,15 +82,20 @@ hr {
     border-bottom-right-radius: 8px;
 }
 .outer-div-7 {
-    outline-style: solid;
-    outline-color: red;
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
     background-color: blue;
 }
-
 .inner-div-7 {
-    outline-style: solid;
-    outline-color: red;
+    margin-left: auto;
+	margin-right: auto;
+
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
     background-color: yellow;
+    text-align: right;
 }
 .top-inner-div-7 {
     margin-left: 20px;
@@ -99,8 +104,11 @@ hr {
     margin-bottom: 10px;
 
     padding: 12px;
-    height: 200px;
-    width: 700px;
+    height: 198px;
+    width: 698px;
+}
+.bottom-outer-div-7 {
+    margin-top: 20px;
 }
 .bottom-inner-div-7 {
     padding: 12px;
