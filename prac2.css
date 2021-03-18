@@ -80,6 +80,33 @@ mark {
     border-top-color: #cfdfe4
 }
 
+.outer-div-7 {
+    outline-style: solid;
+    outline-color: red;
+    background-color: blue;
+}
+
+.inner-div-7 {
+    outline-style: solid;
+    outline-color: red;
+    background-color: yellow;
+}
+.top-inner-div-7 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    padding: 12px;
+    height: 200px;
+    width: 700px;
+}
+.bottom-inner-div-7 {
+    padding: 12px;
+    height: 400px;
+    width: 400px;
+}
+
 pre {
     font-family: monospace;
 }
